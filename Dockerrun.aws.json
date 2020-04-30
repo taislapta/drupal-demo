@@ -17,9 +17,14 @@
   "containerDefinitions": [
     {
       "name": "php-app",
-      "image": "drupal:7.67",
+      "image": "drupal:7.69",
       "essential": true,
       "memory": 128,
+      "portMappings": [
+        {
+          "containerPort": 9000
+        }
+	],
       "mountPoints": [
         {
           "sourceVolume": "php-app",
