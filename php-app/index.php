@@ -1,1 +1,2 @@
-<h3>PHP Version <pre><?= phpversion()?></pre></h3>
+<h3>AWS LG Dev Aplinka</h3><br>
+<?= phpinfo()?>
