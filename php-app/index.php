@@ -1,2 +1,2 @@
-<h3>AWS LG Dev Aplinka</h3><br>
+<h3>AWS LG Produkcinė Aplinka</h3><br>
 <?= phpinfo()?>
